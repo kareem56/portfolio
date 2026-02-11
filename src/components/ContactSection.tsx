@@ -3,7 +3,7 @@ import { Mail, Phone, Github, Linkedin } from "lucide-react";
 
 const contacts = [
   { icon: Phone, label: "+20 01125823130", href: "tel:+2001125823130" },
-  { icon: Mail, label: "ftk.kareem@gmail.com", href: "mailto:ftk.kareem@gmail.com" },
+  { icon: Mail, label: "kareemahmed22066@gmail.com", href: "mailto:kareemahmed22066@gmail.com" },
   { icon: Github, label: "github.com/kareem56", href: "https://github.com/kareem56" },
   { icon: Linkedin, label: "linkedin.com/in/kareemahmedm", href: "https://www.linkedin.com/in/kareemahmedm/" },
 ];

@@ -25,11 +25,12 @@ const HeroSection = () => {
             Machine Learning / Data Engineering
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-4">
-            Kareem Ahmed
+            Kareem Ahmed Mohamed
           </h1>
-          <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-3">
+          <p className="text-lg text-muted-foreground max-w-xl mx-auto mb-1">
             Computer Science Student — ML and Data Engineering Focus
           </p>
+          <p className="text-sm text-text-dim mb-3 font-mono">Cairo, Egypt</p>
           <p className="text-base text-text-dim max-w-lg mx-auto mb-10">
             Building analytical systems powered by data, logic, and scalable engineering.
           </p>

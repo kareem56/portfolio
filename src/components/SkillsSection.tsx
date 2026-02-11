@@ -8,29 +8,34 @@ interface SkillCategory {
 const categories: SkillCategory[] = [
   {
     title: "Programming",
-    items: ["Python", "C++ (Data Structures & Fundamentals)"],
+    items: ["Python", "C++ (Data Structures & Fundamentals)", "HTML & CSS"],
   },
   {
     title: "Machine Learning",
-    items: ["Supervised Learning", "Logistic Regression", "Model Evaluation", "Feature Engineering (Basic)"],
+    items: ["Supervised Learning", "Unsupervised Learning", "Logistic Regression", "Model Evaluation", "Feature Engineering (Basic)", "Classification Techniques"],
   },
   {
     title: "Data Engineering",
     items: [
+      "ETL Processes",
       "Data Cleaning",
       "Data Transformation",
-      "Structured Datasets",
-      "Excel for Structured Reporting",
-      "Data Pipeline Fundamentals",
+      "Data Warehousing",
+      "Data Pipeline Architecture",
+      "Database Management",
     ],
   },
   {
     title: "Tools",
-    items: ["Google Colab", "Git & GitHub", "Microsoft Excel", "SQL"],
+    items: ["SQL", "Google Colab", "Git & GitHub", "Data Handling Tools", "Microsoft Excel"],
   },
   {
     title: "Soft Skills",
-    items: ["Analytical Thinking", "Structured Problem Solving", "Adaptability", "Time Management"],
+    items: ["Analytical Thinking", "Problem Solving", "Team Collaboration", "Communication", "Time Management", "Fast Learner"],
+  },
+  {
+    title: "Languages",
+    items: ["Arabic — Native", "English — Fluent"],
   },
 ];
 
