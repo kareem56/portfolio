@@ -17,7 +17,7 @@ const projects: Project[] = [
     process: "Data cleaning, feature selection, model training with Logistic Regression, and systematic evaluation.",
     result: "Achieved measurable classification accuracy with clear performance metrics and confusion matrix analysis.",
     tools: ["Python", "scikit-learn", "pandas"],
-    github: "https://github.com/kareem56",
+    github: "https://colab.research.google.com/drive/1dEa6QkXdi-DZgh7uWlWsOaLUubKhEOAC",
   },
   {
     title: "Bisecting K-Means Clustering",
@@ -25,7 +25,15 @@ const projects: Project[] = [
     process: "Iterative splitting method — recursively bisecting the largest cluster to achieve optimal grouping.",
     result: "Generated cluster visualizations with performance analysis and silhouette score discussion.",
     tools: ["Python", "NumPy"],
-    github: "https://github.com/kareem56",
+    github: "https://colab.research.google.com/drive/1Nj01JuzuihqkXUwompISRZRa6gewZKzE",
+  },
+  {
+    title: "ML Classification Techniques",
+    problem: "Comparing multiple classification algorithms on the same dataset to identify optimal approach.",
+    process: "Applied various classification algorithms, tuned parameters, and benchmarked accuracy and performance metrics.",
+    result: "Comprehensive comparison of classifier performance with documented accuracy metrics across methods.",
+    tools: ["Python", "scikit-learn", "pandas"],
+    github: "https://colab.research.google.com/drive/1wOPPuG5JoyLFXfWC5GlUMkxCTWZ7_HKD",
   },
   {
     title: "Data Engineering — ETL Pipeline",
@@ -70,7 +78,7 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                     className="shrink-0 inline-flex items-center gap-1.5 text-xs font-mono text-primary hover:underline"
                   >
-                    GitHub <ExternalLink className="w-3 h-3" />
+                    {project.github?.includes("colab") ? "Colab" : "GitHub"} <ExternalLink className="w-3 h-3" />
                   </a>
                 )}
               </div>
