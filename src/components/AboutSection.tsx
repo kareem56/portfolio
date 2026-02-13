@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import kareemPhoto from "@/assets/kareem-photo.jpg";
 
 const AboutSection = () => {
   return (
@@ -14,15 +13,7 @@ const AboutSection = () => {
           <h2 className="font-mono text-sm text-primary tracking-widest uppercase mb-2">About</h2>
           <div className="glow-line w-12 mb-8" />
 
-          <div className="flex flex-col sm:flex-row gap-8 items-start mb-8">
-            <div className="shrink-0">
-              <img
-                src={kareemPhoto}
-                alt="Kareem Ahmed Mohamed"
-                className="w-36 h-36 rounded-lg object-cover border-2 border-primary/20 grayscale hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
-            <div className="space-y-5 text-muted-foreground leading-relaxed">
+          <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
               Data practitioner with hands-on exposure to Machine Learning and Data Engineering through NTI and DEPI training. Experienced in data processing, workflow organization, and analytical problem solving using Python, SQL, and data handling tools.
             </p>
@@ -32,7 +23,6 @@ const AboutSection = () => {
             <p>
               Currently studying Computer Science at Sadat Academy for Management Sciences (2024 -- Present), focusing on building strong foundations in Python, algorithms, and data systems before scaling into advanced AI and engineering domains.
             </p>
-            </div>
           </div>
 
           <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
