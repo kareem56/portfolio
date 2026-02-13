@@ -35,14 +35,6 @@ const projects: Project[] = [
     tools: ["Python", "scikit-learn", "pandas"],
     github: "https://colab.research.google.com/drive/1wOPPuG5JoyLFXfWC5GlUMkxCTWZ7_HKD",
   },
-  {
-    title: "Data Engineering — ETL Pipeline",
-    problem: "Raw, unstructured dataset requiring cleaning and transformation for downstream analysis.",
-    process: "Built an ETL-style pipeline: ingestion of raw data, cleaning null values and duplicates, transforming schema, exporting structured output.",
-    result: "Produced a clean, analysis-ready dataset with documented performance optimization decisions.",
-    tools: ["Python", "Pandas"],
-    github: "https://github.com/kareem56",
-  },
 ];
 
 const ProjectsSection = () => {
