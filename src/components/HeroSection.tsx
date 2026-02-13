@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Mail } from "lucide-react";
+import kareemPhoto from "@/assets/kareem-photo.jpg";
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,13 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
+          className="flex flex-col items-center"
         >
+          <img
+            src={kareemPhoto}
+            alt="Kareem Ahmed Mohamed"
+            className="w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-primary/20 mb-6 shadow-lg shadow-primary/10"
+          />
           <p className="font-mono text-sm text-primary mb-4 tracking-widest uppercase">
             Machine Learning / Data Engineering
           </p>
